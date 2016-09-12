@@ -1,0 +1,5 @@
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'UMengSocialCOM', '~> 5.2.1'
+pod 'MMDrawerController'
