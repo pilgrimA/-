@@ -8,12 +8,14 @@
 
 #import "LogInViewController.h"
 
-@interface LogInViewController ()
+@interface LogInViewController ()<UITextFieldDelegate>
 {
     UIImageView *imgView; // backgroundView
+    UIImageView *logoImgView; // logo image
     UITextField *name;
     UITextField *password;
     UIButton *loginBtn;
+//    NSUserDefaults *defaults;
 }
 @end
 
@@ -29,10 +31,25 @@
 - (void)buildUI{
     // set backgroundView
     [self setBackImageView];
+    // set logo
+    [self setLogo];
     // set user name and password
     [self setUserNameAndPassword];
+    // set delegate
+    [self setTextDelegate];
     // set loginBtn
     [self setLoginBtn];
+}
+
+// set logo
+- (void)setLogo{
+    // logo
+    logoImgView=[[UIImageView alloc] initWithFrame:CGRectMake(WIDTH/4.0, (HEIGHT/5.0*2-WIDTH/2.0)/2, WIDTH/2.0, WIDTH/2.0)];
+    logoImgView.image=[UIImage imageNamed:@"login_logo1"];
+    // image setting
+    logoImgView.layer.masksToBounds=YES;
+    logoImgView.layer.cornerRadius=WIDTH/4.0;
+    [self.view addSubview:logoImgView];
 }
 
 // set backgroundView
@@ -45,7 +62,31 @@
 
 // set user name and password
 - (void)setUserNameAndPassword{
-    
+    for (int i=0; i<2; i++) {
+        UITextField *textfield=[[UITextField alloc] initWithFrame:CGRectMake(40, HEIGHT/5.0*2+i*60, WIDTH-80, 40)];
+        UIImageView *iconImg=[[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 20, 30)];
+        textfield.backgroundColor=[UIColor clearColor];
+        switch (i) {
+            case 0:
+                name=textfield;
+                name.placeholder=@"请输入账号(please enter username)";
+                iconImg.image=[UIImage imageNamed:@"login_user"];
+                break;
+            case 1:
+                password=textfield;
+                password.placeholder=@"请输入密码(please enter password)";
+                password.secureTextEntry=YES;
+                iconImg.image=[UIImage imageNamed:@"login_password"];
+                break;
+            default:
+                break;
+        }
+        textfield.leftView=iconImg;
+        textfield.leftViewMode=UITextFieldViewModeAlways;
+        textfield.layer.masksToBounds=YES;
+        textfield.layer.cornerRadius=5;
+        [self.view addSubview:textfield];
+    }
 }
 
 // set loginBtn
@@ -66,6 +107,25 @@
     animation.additive = YES;
     
     [textField.layer addAnimation:animation forKey:@"shake"];
+}
+
+- (void)setTextDelegate{
+    name.delegate=self;
+    password.delegate=self;
+    if ([name canBecomeFirstResponder] || [password canBecomeFirstResponder]) {
+        [self performSelector:@selector(showKeyboard) withObject:nil afterDelay:0];
+    }
+}
+
+// 弹出键盘
+- (void)showKeyboard{
+    [name becomeFirstResponder];
+    [password becomeFirstResponder];
+}
+
+//  回收键盘
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
 }
 
 - (void)didReceiveMemoryWarning {

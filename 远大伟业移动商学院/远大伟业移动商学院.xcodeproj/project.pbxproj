@@ -517,6 +517,7 @@
 				TargetAttributes = {
 					2C1110951D6EC6FC002CCB4C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H83E67XW45;
 					};
 					2C1110AE1D6EC6FC002CCB4C = {
 						CreatedOnToolsVersion = 7.3;
@@ -786,6 +787,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = H83E67XW45;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/远大伟业移动商学院/PrefixHeader.pch";
@@ -803,6 +805,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = H83E67XW45;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/远大伟业移动商学院/PrefixHeader.pch";

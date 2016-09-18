@@ -24,9 +24,6 @@
 
 // setting leftMenu
 - (void)setLeftMenu{
-//    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStyleDone target:self action:@selector(openLeftMenu)];
-//    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"Introduce" style:UIBarButtonItemStyleDone target:self action:@selector(BuninessSchoolIntroduce)];
-    
     UIBarButtonItem *item1=[[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStyleDone target:self action:@selector(openLeftMenu)];
     UIBarButtonItem *item2=[[UIBarButtonItem alloc] initWithTitle:@"Introduce" style:UIBarButtonItemStyleDone target:self action:@selector(BuninessSchoolIntroduce)];
     self.navigationItem.leftBarButtonItems=@[item1,item2];
