@@ -8,6 +8,9 @@
 
 #import "Header.h"
 
+#import "MJExtension.h"
+#import "AFNetworking.h"
+
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 

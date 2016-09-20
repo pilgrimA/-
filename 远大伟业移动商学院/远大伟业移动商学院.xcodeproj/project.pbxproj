@@ -21,10 +21,13 @@
 		2C5A23B91D7ECB4A0095253B /* PersonalSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A23B81D7ECB4A0095253B /* PersonalSettingController.m */; };
 		2C7958021D7FEB62002930A2 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7958011D7FEB62002930A2 /* MenuViewController.m */; };
 		2C7958051D7FEC10002930A2 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7958041D7FEC10002930A2 /* LeftMenuViewController.m */; };
+		2C91EF521D8E7CA200F62A3B /* CoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C91EF511D8E7CA100F62A3B /* CoursesViewController.m */; };
+		2C91EF551D8E7D7700F62A3B /* TalentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C91EF541D8E7D7700F62A3B /* TalentsViewController.m */; };
 		2C927A221D810E200060F658 /* DrawCircleProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C927A211D810E200060F658 /* DrawCircleProgressButton.m */; };
 		2C927A251D810E680060F658 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C927A241D810E680060F658 /* ADViewController.m */; };
 		2C927A281D8112310060F658 /* BuninessSchoolIntroduceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C927A271D8112310060F658 /* BuninessSchoolIntroduceController.m */; };
 		2C927A2B1D8113470060F658 /* BuninessSchoolCommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C927A2A1D8113470060F658 /* BuninessSchoolCommonController.m */; };
+		2CC2A4BD1D8FD1D500DD900F /* ProjectTender.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2A4BC1D8FD1D500DD900F /* ProjectTender.m */; };
 		2CD5DCA91D794A2E00477F6C /* HomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5DCA81D794A2E00477F6C /* HomepageViewController.m */; };
 		6E75B8F149191836268B1CEA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C85DF3EE5DC3074B6B62A33 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -78,6 +81,10 @@
 		2C7958041D7FEC10002930A2 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		2C7958061D7FED45002930A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2C7958071D7FED5A002930A2 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		2C91EF501D8E7CA100F62A3B /* CoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesViewController.h; sourceTree = "<group>"; };
+		2C91EF511D8E7CA100F62A3B /* CoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesViewController.m; sourceTree = "<group>"; };
+		2C91EF531D8E7D7700F62A3B /* TalentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalentsViewController.h; sourceTree = "<group>"; };
+		2C91EF541D8E7D7700F62A3B /* TalentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalentsViewController.m; sourceTree = "<group>"; };
 		2C927A201D810E200060F658 /* DrawCircleProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCircleProgressButton.h; sourceTree = "<group>"; };
 		2C927A211D810E200060F658 /* DrawCircleProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCircleProgressButton.m; sourceTree = "<group>"; };
 		2C927A231D810E680060F658 /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
@@ -86,6 +93,8 @@
 		2C927A271D8112310060F658 /* BuninessSchoolIntroduceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuninessSchoolIntroduceController.m; sourceTree = "<group>"; };
 		2C927A291D8113470060F658 /* BuninessSchoolCommonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuninessSchoolCommonController.h; sourceTree = "<group>"; };
 		2C927A2A1D8113470060F658 /* BuninessSchoolCommonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuninessSchoolCommonController.m; sourceTree = "<group>"; };
+		2CC2A4BB1D8FD1D500DD900F /* ProjectTender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectTender.h; sourceTree = "<group>"; };
+		2CC2A4BC1D8FD1D500DD900F /* ProjectTender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectTender.m; sourceTree = "<group>"; };
 		2CD5DCA71D794A2D00477F6C /* HomepageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepageViewController.h; sourceTree = "<group>"; };
 		2CD5DCA81D794A2E00477F6C /* HomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepageViewController.m; sourceTree = "<group>"; };
 		9C85DF3EE5DC3074B6B62A33 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -275,6 +284,8 @@
 		2C5A23AE1D7EBD1B0095253B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2CC2A4BB1D8FD1D500DD900F /* ProjectTender.h */,
+				2CC2A4BC1D8FD1D500DD900F /* ProjectTender.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -345,6 +356,8 @@
 		2CD5DC9B1D7949AF00477F6C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C91EF501D8E7CA100F62A3B /* CoursesViewController.h */,
+				2C91EF511D8E7CA100F62A3B /* CoursesViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -373,6 +386,8 @@
 		2CD5DC9F1D7949BB00477F6C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2C91EF531D8E7D7700F62A3B /* TalentsViewController.h */,
+				2C91EF541D8E7D7700F62A3B /* TalentsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -636,13 +651,16 @@
 				2C1110DA1D6ECA42002CCB4C /* LogInViewController.m in Sources */,
 				2C1110D81D6ECA42002CCB4C /* AppDelegate.m in Sources */,
 				2CD5DCA91D794A2E00477F6C /* HomepageViewController.m in Sources */,
+				2C91EF521D8E7CA200F62A3B /* CoursesViewController.m in Sources */,
 				2C5A23B91D7ECB4A0095253B /* PersonalSettingController.m in Sources */,
 				2C927A2B1D8113470060F658 /* BuninessSchoolCommonController.m in Sources */,
 				2C11109B1D6EC6FC002CCB4C /* main.m in Sources */,
 				2C927A281D8112310060F658 /* BuninessSchoolIntroduceController.m in Sources */,
+				2C91EF551D8E7D7700F62A3B /* TalentsViewController.m in Sources */,
 				2C5A23B61D7EC4DA0095253B /* PersonalController.m in Sources */,
 				2C7958051D7FEC10002930A2 /* LeftMenuViewController.m in Sources */,
 				2C1110D91D6ECA42002CCB4C /* ForgetPasswordViewController.m in Sources */,
+				2CC2A4BD1D8FD1D500DD900F /* ProjectTender.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
